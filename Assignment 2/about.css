@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: "Cantarell";
+    background: #043f34;
+    color: #ebf383;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    min-height: 70px;
+    border-bottom: #ebf383 3px solid
+}
+.container {
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+    padding: 50px;
+    box-shadow: 0 0 100px  #0a9279
+}
+nav ul li a {
+    color: #fff;
+}
+#about-link, #contact-link {
+    color: #fff;
+}
+#about-button, #contact-button {
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0;
+}
+
+#about-button:hover, #contact-button:hover {
+    text-decoration: underline;
+}
