@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+.flag-container {
+    position: relative;
+    width: 300px;
+    height: 200px; 
+}
+.strip {
+    position: absolute;
+    width: 100%;
+}
+.red-strip {
+    height: 25%;
+    background-color: #CE1126;
+    font-size: 30px;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+
+  
+    
+}
+.blue-strip {
+    height: 50%;
+    top: 25%;
+    background-color: #002868;
+}   
+.circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px; 
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 25px;
+    text-align: center;
+
+  }
