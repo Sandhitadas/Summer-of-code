@@ -1,0 +1,17 @@
+import React from 'react';
+import Puzzle from './Puzzle';
+import './App.css';
+
+const App = () => {
+  return (
+    <div className="App">
+      <Puzzle />
+    </div>
+  );
+};
+
+export default App;
+
+
+
+

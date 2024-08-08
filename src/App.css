@@ -1,0 +1,81 @@
+.game-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 10px 20px;
+  border: 5px solid #444; 
+  margin: 20px auto;
+  max-width: 600px; 
+  
+  background-color: #000000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}
+
+h1 {
+  font-size: 50px;
+  background: -webkit-linear-gradient(#12aff2, #25fcb4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.game-info {
+  display: flex;
+  color: rgb(255, 252, 252);
+  justify-content:space-around;
+  margin-bottom: 0;
+}
+
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-gap: 10px;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.tile {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(90, 90, 90);
+  border-radius: 10px; 
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.tile.empty {
+  
+  background-color: transparent;
+  cursor: default;
+}
+
+.tile:hover {
+  background: linear-gradient(135deg, #6a11cb, #fc255b, #fce619); /* Change this to the hover color you want */
+}
+
+/* .tile.clicked {
+  background-color: #000000;} /* Change this to the color you want when clicked  */
+
+/* .tile.empty {
+
+  background-color: #000000;
+  cursor: default;
+} */
+
+button {
+  padding: 10px 170px;
+  background: linear-gradient(135deg, #6a11cb, #038bfb, #0dbccf, #25fcb4);
+  border-radius: 8px;
+
+  font-size: 20px;
+  cursor: pointer;
+}
+button:hover {
+  font-size:25px;
+  color:#444;
+  font-optical-sizing:auto;
+
+  background: linear-gradient(135deg,  #9b7cbc, #77abd5, #7fc8d0, #8dd9c0);
+
+}
